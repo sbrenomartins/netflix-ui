@@ -76,11 +76,11 @@ function App() {
       <Hero movie={originals[Math.floor(Math.random() * originals.length)]} />
 
       <Movies title="Netflix originals" movies={originals} />
-      <Movies title="Netflix originals" movies={trending} />
-      <Movies title="Netflix originals" movies={nowPlaying} />
-      <Movies title="Netflix originals" movies={popular} />
-      <Movies title="Netflix originals" movies={topRated} />
-      <Movies title="Netflix originals" movies={upcoming} />
+      <Movies title="Trending" movies={trending} />
+      <Movies title="Now Playing" movies={nowPlaying} />
+      <Movies title="Popular" movies={popular} />
+      <Movies title="Top Rated" movies={topRated} />
+      <Movies title="Upcoming" movies={upcoming} />
     </>
   );
 }
